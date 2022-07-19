@@ -72,5 +72,5 @@ print(f"A maior e menor altura da turma respectivamente é: {maior} {menor}")
 print(f"A quantidade de mulheres com altura acima da media da altura das mulheres: {FAcima}")
 print(f"A quantidade de homens com nota inferior a media das mulheres: {MAbaixo}")
 print(f"O percentual de pessoas que nasceram em cada ano inserido:")
-for item in range(2):
+for item in range(len(anos)):
     print(f"{anos[item]} = {porcentagem[item]}%")
